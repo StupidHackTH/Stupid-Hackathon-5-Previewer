@@ -1,0 +1,7 @@
+app:
+  image: php:7.2-apache
+  volumes:
+    - ./web:/var/www/html
+    - ./data:/data
+  ports:
+    - "80:80"
